@@ -61,7 +61,6 @@ body {
 }
 
 
-
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
@@ -75,6 +74,7 @@ body {
 
     margin-bottom: 0px;
     font-variant: small-caps;
+    text-align: center;
 }
 
 #nameFooter {
