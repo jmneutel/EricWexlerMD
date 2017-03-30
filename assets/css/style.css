@@ -1,0 +1,109 @@
+body {
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: #FFEDCB;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#test {
+    margin-bottom: 0px;
+}
+
+
+#banner {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#welcome {
+    background-color: #E1F3F8;
+    padding: 20px;
+    border-style: solid;
+    border-color: #E1F3F8;
+    border-width: 0.5px;
+    font-family: 'Century Gothic', verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.background {
+    background-image: url("../images/test-img.png");
+    /*E1F3F8*/
+}
+
+#practice {
+    height: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.navbar-toggle {
+    float: none;
+    margin-right: 0;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.footer-content:last-child {
+
+    margin-bottom: 15px;
+}
+
+.footer-content {
+
+    margin-bottom: 0px;
+    font-variant: small-caps;
+}
+
+#nameFooter {
+
+    font-weight: bold;
+
+}
+
+@media handheld,
+screen and (max-width: 640px) {
+    #banner {
+        display: none;
+    }
+}
+
+@media handheld,
+screen and (min-width: 640px) {
+    #banner1 {
+        display: none;
+    }
+    #banner2 {
+        display: none;
+    }
+    #banner3 {
+        display: none;
+
+    }
+    #carousel-example-generic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+}
