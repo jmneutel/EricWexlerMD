@@ -88,6 +88,19 @@ screen and (max-width: 640px) {
     #banner {
         display: none;
     }
+
+    #welcome {
+
+        font-size: 13px;
+    }
+
+    .background {
+
+        background-image: none;
+        margin-top: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media handheld,
