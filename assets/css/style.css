@@ -1,10 +1,13 @@
 body {
 
-    border-width: 10px;
-    border-style: solid;
-    border-color: #FFEDCB;
-    margin: 0px;
+    margin: 10px;
     padding-bottom: 10px;
+    background-color: #FFEDCB;
+}
+
+#white {
+
+    background-color: white;
 }
 
 #test {
