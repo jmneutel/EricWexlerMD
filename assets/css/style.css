@@ -1,23 +1,29 @@
 body {
-
     margin: 10px;
-    /*background-color: lightgrey;*/
+    background-color: #FFEDCB;
+}
+
+#links {
+    position: relative;
+    bottom: 55px;
+    left: 80px;
 }
 
 #white {
-
     background-color: white;
     padding-bottom: 10px;
 }
 
-#test {
-    margin-bottom: 0px;
+#carousel-example-generic {
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+    position: relative;
+    bottom: 80px;
 }
 
-
 #banner {
-    margin-top: 30px;
-    width: 100%;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 #welcome {
@@ -32,16 +38,21 @@ body {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
+    position: relative;
+    bottom: 110px;
 }
 
-.background {
-    background-image: url("../images/test-img.png");
-    /*E1F3F8*/
+ul li {
+    list-style: none;
+    display: inline;
+    font-size: 12pt;
+    font-family: 'Century Gothic', verdana, arial, helvetica, sans-serif;
+    padding-right: 25px;
+    text-decoration: underline;
 }
 
-#practice {
-    height: 10px;
-    padding-bottom: 0px;
+ul li:hover > a {
+    color: #CC0000;
 }
 
 .navbar .navbar-nav {
@@ -50,119 +61,65 @@ body {
     vertical-align: top;
 }
 
-.navbar-header {
-    text-align: center;
-}
-
-.navbar-toggle {
-    float: none;
-    margin-right: 0;
-    
-}
-
-.navbar-default .navbar-toggle:hover {
-    
-    background-color: #26649A;
-
-}
-
-.navbar-default .navbar-toggle {
-
-   border-color: white;
-   background-color: #428bca;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-
-    background-color: white;
-
-}
-
-/*#5bc0de*/
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-
-    background-color: #26649A;
-    color: white;
-}
-
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
-.navbar-default .navbar-collapse {
-
-    border-color: #26649A;
-}
-
-
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
 
-.footer-content:last-child {
-
-    margin-bottom: 15px;
-}
-
 .footer-content {
-
     margin-bottom: 0px;
     font-variant: small-caps;
     text-align: center;
+    color: #990033;
+    font-size: 12pt;
+    position: relative;
+    bottom: 100px;
 }
 
-#nameFooter {
-
-    font-weight: bold;
-
+.certified {
+    position: relative;
+    bottom: 60px;
 }
-
-.navbar-default {
-  background-color: #428bca;
-  background-image: none;
-  background-repeat: no-repeat;
-  border-color: #428bca;
- }
-
- .navbar-default .navbar-nav>li>a {
-
-    color: white;
-    padding-left: 40px;
-    padding-right: 40px;
- }
-
-  .navbar-default .navbar-nav>li>a:hover {
-
-    background-color: #26649A;
-    color: white;
- }
-
 
 @media handheld,
-screen and (max-width: 640px) {
+screen and (max-width: 768px) and (min-width: 640px) {
+
+    #links {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        left: 20px;
+        text-align: center;
+    }
+    ul {
+        padding-left: 0px;
+    }
+
+}
+
+@media handheld,
+screen and (max-width: 639px) {
     #banner {
         display: none;
     }
-
     #welcome {
-
         font-size: 13px;
     }
-
-    .background {
-
-        background-image: none;
+    .welcome {
+        padding-top: 30px;
+    }
+    #carousel-example-generic {
         margin-top: 5px;
         padding-left: 0px;
         padding-right: 0px;
     }
-
-     #firstSent {
-
-    font-size: 19.5px;
-    font-style: italic;
- }
+    #links {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        left: 20px;
+        text-align: center;
+    }
+    ul {
+        padding-left: 0px;
+    }
 }
 
 @media handheld,
@@ -175,34 +132,9 @@ screen and (min-width: 640px) {
     }
     #banner3 {
         display: none;
-
     }
     #carousel-example-generic {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
- #firstSent {
-
-    font-size: 24.5px;
-    font-style: italic;
- }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-        
-    }
-    .navbar-collapse.collapse.in {
-        display: inline-block !important;
-        
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:inline-block !important;
-        
-    }
-    .navbar-header {
-        float:none;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
