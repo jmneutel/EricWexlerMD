@@ -3,6 +3,69 @@ body {
     background-color: #FFEDCB;
 }
 
+#head-photo {
+    float: right;
+    width: 275px;
+    height: 430px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#about-hover {
+    display: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+#np-hover {
+    display: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+#np-tab:hover #np-hover {
+    display: block;
+    height: 80px;
+    width: 720px;
+    background: #CCCCCC;
+    box-shadow: 0 0 4px #888888;
+    position: absolute;
+    padding: 8px;
+    top: 37px;
+    right: 80px;
+    z-index: 1000;
+    border-color: #FF00FF;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.hover-text {
+    float: left;
+    color: #004D6F;
+}
+
+#about-tab:hover #about-hover {
+    display: block;
+    height: 600px;
+    width: 720px;
+    background: #CCCCCC;
+    box-shadow: 0 0 4px #888888;
+    position: absolute;
+    padding: 8px;
+    top: 37px;
+    right: 170px;
+    z-index: 1000;
+    border-color: #FF00FF;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
 #links {
     position: relative;
     bottom: 55px;
@@ -81,8 +144,28 @@ ul li:hover > a {
 }
 
 @media handheld,
-screen and (max-width: 768px) and (min-width: 640px) {
+screen and (max-width: 1200px) and (min-width: 885px) {
+    #np-tab:hover #np-hover {
+        right: 0px;
+    }
+    #about-tab:hover #about-hover {
+        right: 0px;
+    }
+}
 
+@media handheld,
+screen and (max-width: 885px) {
+     #np-tab:hover #np-hover {
+        display: none;
+
+    }
+    #about-tab:hover #about-hover {
+        display: none;
+    }
+}
+
+@media handheld,
+screen and (max-width: 768px) and (min-width: 640px) {
     #links {
         padding-top: 30px;
         padding-bottom: 10px;
@@ -92,7 +175,6 @@ screen and (max-width: 768px) and (min-width: 640px) {
     ul {
         padding-left: 0px;
     }
-
 }
 
 @media handheld,
