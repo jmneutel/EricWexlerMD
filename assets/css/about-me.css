@@ -76,6 +76,10 @@
     padding-bottom: 10px;
 }
 
+.container {
+
+    overflow-y:auto; 
+}
 .intro-text {
 
     padding-top: 10px;
