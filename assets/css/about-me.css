@@ -1,0 +1,270 @@
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    color: white;
+    background-color: #2A7A9C;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.difftab {
+    color: white;
+    background-color: #82C0DC;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.nav-tabs>li>.difftab:hover {
+     background-color: #82C0DC;
+     color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.listTab {
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.nav>li>.difftab {
+    padding: 2px 15px;
+}
+
+#overflow {
+
+    overflow: auto;
+    width: 100%;
+    background-color: #FFEDCB;
+    background-attachment: fixed;
+    background-position: center top;
+    position: fixed;
+    height: 100%;
+}
+
+#white {
+    background-color: white;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 10px #888;
+    margin-bottom: 20px;
+}
+
+.tabChanges {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.titles {
+
+    padding-top: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 16pt;
+    text-align: justify;
+    color: #000000;
+}
+
+#head-photo {
+
+    float: right;
+    margin-top: 10px;
+    z-index: 10;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.intro-text {
+
+    padding-top: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 16pt;
+    text-align: justify;
+    color: #000000;
+    font-size: 11pt;
+}
+
+#last {
+
+    padding-bottom: 20px;
+}
+
+.divBack {
+
+    background-color: #CCECF7;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    font-size: 12pt;
+    color: #000000;
+    font-family: 'Century Gothic',verdana,arial,helvetica,sans-serif;
+}
+
+.tab-content {
+
+    border: 1px solid #519e2d;
+    margin: 10px;
+    overflow: auto;
+}
+
+.generic {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 12pt;
+    color: #990033;
+    
+}
+
+.policy2 {
+    font-size: 9pt;
+    line-height: 20px;
+    text-align: justify;
+    color: #000000;
+    font-family: 'Century Gothic',verdana,arial,helvetica,sans-serif;
+ }
+
+ .policy {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 16pt;
+    text-align: justify;
+    font-size: 9pt;
+    line-height: 20px;
+    color: #000000;
+ }
+
+/*===============================================*/
+
+body {
+    margin: 10px;
+    background-color: #FFEDCB;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#head-photo {
+    float: right;
+    width: 275px;
+    height: 430px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#links {
+    position: relative;
+    bottom: 70px;
+    right: 0px;
+
+
+}
+
+#banner {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#welcome {
+    background-color: #E1F3F8;
+    padding: 20px;
+    border-style: solid;
+    border-color: #E1F3F8;
+    border-width: 0.5px;
+    font-family: 'Century Gothic', verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 110px;
+}
+
+.diffnav {
+    list-style: none;
+    display: inline;
+    font-size: 14px;
+    line-height: 1.8em;
+    font-family: 'Century Gothic', verdana, arial, helvetica, sans-serif;
+    padding-right: 40px;
+    text-decoration: underline;
+}
+
+.diffnav:hover > a {
+    color: #CCCCCC;
+}
+
+#suboxone {
+
+    color: #CC0000 !important;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+
+@media handheld,
+screen and (max-width: 1200px) and (min-width: 885px) {}
+
+@media handheld,
+screen and (max-width: 885px) {}
+
+@media handheld,
+screen and (max-width: 768px) and (min-width: 640px) {
+    #links {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        left: 20px;
+        text-align: center;
+    }
+    ul {
+        padding-left: 0px;
+    }
+}
+
+@media handheld,
+screen and (max-width: 639px) {
+    #banner {
+        display: none;
+    }
+    #welcome {
+        font-size: 13px;
+    }
+    .welcome {
+        padding-top: 30px;
+    }
+    #links {
+        padding-top: 100px;
+        padding-bottom: 0px;
+        left: 20px;
+        text-align: center;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    #white {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media handheld,
+screen and (min-width: 640px) {
+    #banner1 {
+        display: none;
+    }
+    #banner2 {
+        display: none;
+    }
+    #banner3 {
+        display: none;
+    }
+}
