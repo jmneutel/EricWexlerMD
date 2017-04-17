@@ -1,3 +1,51 @@
+#map {
+    width: 70%;
+}
+
+#first-paragraph-location {
+
+	padding-top: 20px;
+}
+
+.location-text {
+	
+	padding: 10px;
+    background-color: #FFFFFF;
+    height: auto;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 16pt;
+    text-align: justify;
+    color: #000000;
+    padding-bottom: 20px;
+
+}
+
+.tpf {
+
+	font-size: 12pt;
+}
+
+#list-font {
+
+	font-family: 'Century Gothic',verdana,arial,helvetica,sans-serif;
+}
+
+.welcome-text {
+
+	padding: 10px;
+    background-color: #FFFFFF;
+    height: auto;
+    font-size: 11pt;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 16pt;
+    text-align: justify;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+/*=============================================================*/
+
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
@@ -7,7 +55,6 @@
     font-family: Verdana, Geneva, sans-serif;
 }
 
-
 .difftab {
     color: white;
     background-color: #82C0DC;
@@ -16,8 +63,8 @@
 }
 
 .nav-tabs>li>.difftab:hover {
-     background-color: #82C0DC;
-     color: white;
+    background-color: #82C0DC;
+    color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, sans-serif;
 }
@@ -32,7 +79,6 @@
 }
 
 #overflow {
-
     overflow: auto;
     width: 100%;
     background-color: #FFEDCB;
@@ -55,11 +101,9 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
-
 }
 
 .titles {
-
     padding-top: 25px;
     font-family: Verdana, Geneva, sans-serif;
     line-height: 16pt;
@@ -67,75 +111,30 @@
     color: #000000;
 }
 
-#head-photo {
-
-    float: right;
-    margin-top: 10px;
-    z-index: 10;
-    margin-right: 20px;
-    margin-left: 10px;
-    padding-bottom: 10px;
-}
-
-.intro-text {
-
-    padding-top: 10px;
-    font-family: Verdana, Geneva, sans-serif;
-    line-height: 16pt;
-    text-align: justify;
-    color: #000000;
-    font-size: 11pt;
-}
-
-#last {
-
-    padding-bottom: 20px;
-}
-
 .divBack {
-
     background-color: #CCECF7;
     padding-left: 10px;
     padding-bottom: 25px;
     border-radius: 15px;
     font-size: 12pt;
     color: #000000;
-    font-family: 'Century Gothic',verdana,arial,helvetica,sans-serif;
+    font-family: 'Century Gothic', verdana, arial, helvetica, sans-serif;
 }
 
 .tab-content {
-
     border: 1px solid #519e2d;
     margin: 10px;
     overflow: auto;
 }
 
 .generic {
-    
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     font-size: 12pt;
     color: #990033;
-    
 }
 
-.policy2 {
-    font-size: 9pt;
-    line-height: 20px;
-    text-align: justify;
-    color: #000000;
-    font-family: 'Century Gothic',verdana,arial,helvetica,sans-serif;
- }
-
- .policy {
-    font-family: Verdana, Geneva, sans-serif;
-    line-height: 16pt;
-    text-align: justify;
-    font-size: 9pt;
-    line-height: 20px;
-    color: #000000;
- }
 
 /*===============================================*/
 
@@ -146,27 +145,17 @@ body {
     margin-bottom: 20px;
 }
 
-#head-photo {
-    float: right;
-    width: 275px;
-    height: 430px;
-    margin-left: 10px;
-    margin-bottom: 5px;
-}
 
 #links {
     position: relative;
     bottom: 70px;
     right: 0px;
-
-
 }
 
 #banner {
     margin-top: 20px;
     max-width: 100%;
     height: auto;
-
 }
 
 #welcome {
@@ -200,17 +189,14 @@ body {
 }
 
 #suboxone {
-
     color: #CC0000 !important;
 }
-
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
 }
-
 
 @media handheld,
 screen and (max-width: 1200px) and (min-width: 885px) {}
@@ -255,6 +241,9 @@ screen and (max-width: 639px) {
     #white {
         margin-left: 0px;
         margin-right: 0px;
+    }
+    #map {
+        width: 100%;
     }
 }
 
