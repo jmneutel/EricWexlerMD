@@ -3,11 +3,13 @@
 }
 
 #first-paragraph-location {
-    padding-top: 20px;
+
+	padding-top: 20px;
 }
 
 .location-text {
-    padding: 10px;
+	
+	padding: 10px;
     background-color: #FFFFFF;
     height: auto;
     font-size: 12pt;
@@ -16,18 +18,22 @@
     text-align: justify;
     color: #000000;
     padding-bottom: 20px;
+
 }
 
 .tpf {
-    font-size: 12pt;
+
+	font-size: 12pt;
 }
 
 #list-font {
-    font-family: 'Century Gothic', verdana, arial, helvetica, sans-serif;
+
+	font-family: 'Century Gothic',verdana,arial,helvetica,sans-serif;
 }
 
 .tab-text {
-    padding: 10px;
+
+	padding: 10px;
     background-color: #FFFFFF;
     height: auto;
     font-size: 11pt;
@@ -37,7 +43,6 @@
     color: #000000;
     padding-bottom: 20px;
 }
-
 
 /*=============================================================*/
 
@@ -106,6 +111,7 @@
     color: #000000;
 }
 
+
 .tab-content {
     border: 1px solid #519e2d;
     margin: 10px;
@@ -130,6 +136,7 @@ body {
     margin-bottom: 20px;
 }
 
+
 #links {
     position: relative;
     bottom: 70px;
@@ -141,6 +148,7 @@ body {
     max-width: 100%;
     height: auto;
 }
+
 
 .diffnav {
     list-style: none;
@@ -190,6 +198,7 @@ screen and (max-width: 639px) {
     #banner {
         display: none;
     }
+    
     .welcome {
         padding-top: 30px;
     }
@@ -209,15 +218,6 @@ screen and (max-width: 639px) {
     }
     #map {
         width: 100%;
-    }
-    #overflow {
-        overflow: none;
-        width: 100%;
-        background-color: #FFEDCB;
-        background-attachment: none;
-        background-position: none;
-        position: none;
-        height: 100%;
     }
 }
 
