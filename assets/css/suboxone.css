@@ -280,6 +280,10 @@ screen and (max-width: 639px) {
     blockquote {
         border: none;
     }
+
+    details > p {
+        margin-left: 20px;
+    }
 }
 
 @media handheld,
