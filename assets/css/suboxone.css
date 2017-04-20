@@ -11,6 +11,7 @@ summary:active {
 
 summary:hover {
     outline-style: none;
+    cursor: pointer;
 }
 
 summary:focus {
