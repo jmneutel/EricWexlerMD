@@ -1,4 +1,4 @@
-# Client Work - Eric Wexler
+# Client Work - Eric Wexler MD
 
 ## Live Link
  - https://jmneutel.github.io/EricWexlerMD/
